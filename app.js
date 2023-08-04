@@ -17,6 +17,10 @@ app.get("/c", (req,res) => {
     res.send("c")
 })
 
+app.get("/aaa", (req,res) => {
+    res.send("aaa")
+})
+
 app.listen(3000, () => {
     console.log("Listen in 3000")
 })
